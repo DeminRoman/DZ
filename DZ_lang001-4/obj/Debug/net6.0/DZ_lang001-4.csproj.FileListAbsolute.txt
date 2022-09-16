@@ -1,0 +1,15 @@
+C:\Users\msaka\OneDrive\Рабочий стол\Учёба\GB\VSC\DZ\DZ_Lang\DZ_lang001-4\obj\Debug\net6.0\DZ_lang001-4.csproj.AssemblyReference.cache
+C:\Users\msaka\OneDrive\Рабочий стол\Учёба\GB\VSC\DZ\DZ_Lang\DZ_lang001-4\obj\Debug\net6.0\DZ_lang001-4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msaka\OneDrive\Рабочий стол\Учёба\GB\VSC\DZ\DZ_Lang\DZ_lang001-4\obj\Debug\net6.0\DZ_lang001-4.AssemblyInfoInputs.cache
+C:\Users\msaka\OneDrive\Рабочий стол\Учёба\GB\VSC\DZ\DZ_Lang\DZ_lang001-4\obj\Debug\net6.0\DZ_lang001-4.AssemblyInfo.cs
+C:\Users\msaka\OneDrive\Рабочий стол\Учёба\GB\VSC\DZ\DZ_Lang\DZ_lang001-4\obj\Debug\net6.0\DZ_lang001-4.csproj.CoreCompileInputs.cache
+C:\Users\msaka\OneDrive\Рабочий стол\Учёба\GB\VSC\DZ\DZ_Lang\DZ_lang001-4\bin\Debug\net6.0\DZ_lang001-4.exe
+C:\Users\msaka\OneDrive\Рабочий стол\Учёба\GB\VSC\DZ\DZ_Lang\DZ_lang001-4\bin\Debug\net6.0\DZ_lang001-4.deps.json
+C:\Users\msaka\OneDrive\Рабочий стол\Учёба\GB\VSC\DZ\DZ_Lang\DZ_lang001-4\bin\Debug\net6.0\DZ_lang001-4.runtimeconfig.json
+C:\Users\msaka\OneDrive\Рабочий стол\Учёба\GB\VSC\DZ\DZ_Lang\DZ_lang001-4\bin\Debug\net6.0\DZ_lang001-4.dll
+C:\Users\msaka\OneDrive\Рабочий стол\Учёба\GB\VSC\DZ\DZ_Lang\DZ_lang001-4\bin\Debug\net6.0\DZ_lang001-4.pdb
+C:\Users\msaka\OneDrive\Рабочий стол\Учёба\GB\VSC\DZ\DZ_Lang\DZ_lang001-4\obj\Debug\net6.0\DZ_lang001-4.dll
+C:\Users\msaka\OneDrive\Рабочий стол\Учёба\GB\VSC\DZ\DZ_Lang\DZ_lang001-4\obj\Debug\net6.0\refint\DZ_lang001-4.dll
+C:\Users\msaka\OneDrive\Рабочий стол\Учёба\GB\VSC\DZ\DZ_Lang\DZ_lang001-4\obj\Debug\net6.0\DZ_lang001-4.pdb
+C:\Users\msaka\OneDrive\Рабочий стол\Учёба\GB\VSC\DZ\DZ_Lang\DZ_lang001-4\obj\Debug\net6.0\DZ_lang001-4.genruntimeconfig.cache
+C:\Users\msaka\OneDrive\Рабочий стол\Учёба\GB\VSC\DZ\DZ_Lang\DZ_lang001-4\obj\Debug\net6.0\ref\DZ_lang001-4.dll
