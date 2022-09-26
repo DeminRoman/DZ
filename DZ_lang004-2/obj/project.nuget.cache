@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AfzV+s0Stw8gkFibhV9GxqZ5plxSM/DshIe/C0uZ8baN+Ure75TxC6U+7BsfFzgpUBEL5rUrIPrSRCU+x1wakg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\msaka\\OneDrive\\Рабочий стол\\Учёба\\GB\\VSC\\DZ\\DZ_Lang\\DZ_lang004-2\\DZ_lang004-2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\msaka\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.9\\microsoft.netcore.app.ref.6.0.9.nupkg.sha512",
+    "C:\\Users\\msaka\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.9\\microsoft.netcore.app.host.win-x64.6.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
