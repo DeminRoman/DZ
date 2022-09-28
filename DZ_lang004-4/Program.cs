@@ -7,18 +7,29 @@
 
 Console.Clear();
 
-int[] Random01(int[] array_local)
+int[] Random(int[] array)
 {
     Random rnd = new Random();
-    for (int i = 0; i < array_local.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
-        array_local[i] = rnd.Next(-10, 9);
+        array[i] = rnd.Next(-10, 9);
     }
 
-    return array_local;
+    return array;
 }
 
 int[] array = new int[10];
-array = Random01(array);
+array = Random(array);
 
 Console.Write(String.Join(",", array));
+Console.WriteLine();
+
+int max = Int32.MinValue;
+for (var i = 0; i < array.Length; i++)
+{
+    if (array[i] > max)
+    {
+        max = array[i];
+    }
+}
+Console.WriteLine(($"Максимальное число в массиве: {max}"));
