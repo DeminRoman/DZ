@@ -9,7 +9,7 @@ Console.WriteLine("Введите размер массива");
 int size = Convert.ToInt32(Console.ReadLine());
 double[] array = new double[size];
 FillArrayRandomNumbers(array);
-Console.WriteLine("Вот наш массив: ");
+Console.WriteLine("Массив: ");
 PrintArray(array);
 double min = Int32.MaxValue;
 double max = Int32.MinValue;
@@ -26,14 +26,14 @@ for (int i = 0; i < array.Length; i++)
     }
 }
 
-Console.WriteLine($"всего {array.Length} чисел. Максимальное значение = {max}, минимальное значение = {min}");
+Console.WriteLine($"Максимальное значение = {max}, минимальное значение = {min}");
 Console.WriteLine($"Разница между максимальным и минимальным значением = {max - min}");
 
 void FillArrayRandomNumbers(double[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = Convert.ToDouble(new Random().Next(100, 1000));
+        array[i] = Convert.ToDouble(new Random().Next(1, 100));
     }
 }
 void PrintArray(double[] array)
