@@ -18,7 +18,7 @@ int sum = 0;
 for (int j = 0; j < array.Length; j++)
 
 {
-    if (array[j] % 2 == 1)
+    if (j % 2 == 1)
         sum = sum + array[j];
 }
 
@@ -37,7 +37,7 @@ void PrintArray(int[] numbers)
     Console.Write("[ ");
     for (int i = 0; i < numbers.Length; i++)
     {
-        Console.Write(numbers[i] + " ");
+        Console.Write(numbers[i] + ", ");
     }
     Console.Write("]");
     Console.WriteLine();
