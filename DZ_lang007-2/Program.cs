@@ -4,54 +4,45 @@
 
 Console.Clear();
 
-Console.WriteLine("Введите количество строк двумерного массива");
-int rowCount = int.Parse(Console.ReadLine());
+Console.WriteLine("введите номер строки");
+int n = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введите номер столбца");
+int m = Convert.ToInt32(Console.ReadLine());
+int[,] numbers = new int[10, 10];
+FillArrayRandomNumbers(numbers);
 
-Console.WriteLine("Введите количество столбцов двумерного массива");
-int columnCount = int.Parse(Console.ReadLine());
-
-int[,] array = FillArray(rowCount, columnCount, 1, 10);
-PrintArray(array);
-
-Console.WriteLine("Введите координаты");
-int rowCount1 = Convert.ToInt32(Console.ReadLine());
-int columnCount1 = Convert.ToInt32(Console.ReadLine());
-
-if (rowCount1 > rowCount && columnCount1 > columnCount)
-    Console.WriteLine($"{rowCount1}{columnCount1} -> такого числа в массиве нет");
+if (n > numbers.GetLength(0) || m > numbers.GetLength(1))
+{
+    Console.WriteLine("такого элемента нет");
+}
 else
 {
-    object c = array.GetValue(rowCount1, columnCount1);
-    Console.WriteLine(c);
+    Console.WriteLine($"значение элемента {n} строки и {m} столбца равно {numbers[n - 1, m - 1]}");
 }
 
-int[,] FillArray(int rows, int columns, int min, int max)
-{
-    int[,] filledArray = new int[rows, columns];
+PrintArray(numbers);
 
-    for (int i = 0; i < rows; i++)
+void FillArrayRandomNumbers(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
     {
-        for (int j = 0; j < columns; j++)
+        for (int j = 0; j < array.GetLength(1); j++)
         {
-            filledArray[i, j] = new Random().Next(min, max + 1);
+            array[i, j] = new Random().Next(-100, 100) / 10;
         }
     }
-    return filledArray;
 }
 
-
-void PrintArray(int[,] inputArray)
+void PrintArray(int[,] array)
 {
-    for (int i = 0; i < inputArray.GetLength(0); i++)
+    for (int i = 0; i < array.GetLength(0); i++)
     {
-        for (int j = 0; j < inputArray.GetLength(1); j++)
+        
+        for (int j = 0; j < array.GetLength(1); j++)
         {
-            Console.Write(" " + inputArray[i, j]);
+            Console.Write(array[i, j] + " ");
         }
-        Console.WriteLine();
+       
+        Console.WriteLine(" ");
     }
 }
-
-
-
-
