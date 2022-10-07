@@ -8,19 +8,19 @@ Console.WriteLine("введите номер строки");
 int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("введите номер столбца");
 int m = Convert.ToInt32(Console.ReadLine());
-int[,] numbers = new int[10, 10];
-FillArray(numbers);
+int[,] array = new int[3, 4];
+FillArray(array);
 
-if (n > numbers.GetLength(0) || m > numbers.GetLength(1))
+if (n > array.GetLength(0) || m > array.GetLength(1))
 {
     Console.WriteLine("такого элемента нет");
 }
 else
 {
-    Console.WriteLine($"значение элемента {n} строки и {m} столбца равно {numbers[n - 1, m - 1]}");
+    Console.WriteLine($"значение элемента {n} строки и {m} столбца равно {array[n - 1, m - 1]}");
 }
 
-PrintArray(numbers);
+PrintArray(array);
 
 void FillArray(int[,] array)
 {
